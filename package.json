@@ -1,0 +1,27 @@
+{
+  "name": "pqc-netcheck",
+  "displayName": "PQC Network Pulse",
+  "version": "0.0.1",
+  "description": "An advanced VS Code extension designed to monitor real-time network connections and analyze them for PQC readiness.",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "pqc-netcheck.scanNetwork",
+        "title": "PQC-Netcheck: Scan Network"
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/vscode": "^1.144.0"
+  }
+}
