@@ -1,5 +1,7 @@
 # 🛡️ PQC-NetCheck: Wire-Level TLS 1.3 Telemetry & PQC Scanner
 
+> **Early lab prototype — not production.** Capture and parsing behavior, protocol coverage, permissions, and result interpretation require validation on the target system. Do not treat output as a complete PQC readiness assessment.
+
 ## 📌 Overview
 PQC-NetCheck is a specialized VS Code extension engineered for Cybersecurity Architects and PQC Migration Specialists. Instead of relying on surface-level vendor compliance dashboards, this tool performs rigorous, ground-truth analysis by intercepting live TLS 1.3 ClientHello packets directly on the wire to empirically verify Post-Quantum Cryptography (PQC) readiness.
 
